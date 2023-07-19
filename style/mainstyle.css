@@ -2,11 +2,14 @@
 
 /* Reset de estilos para garantir uma base limpa */
 body, h1, h2, p, ul, li {
+    color: white;
     margin: 0;
     padding: 0;
 }
 
 body {
+    
+    background-color: #555;
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
@@ -34,6 +37,8 @@ nav a {
 
 nav a:hover {
     background-color: #555;
+    border-radius: 10px;
+    transition: 1s;
 }
 
 main {
@@ -41,9 +46,10 @@ main {
 }
 
 #banner {
+    border-radius: 15px;
     text-align: center;
-    background-color: #f0f0f0;
-    padding: 2rem;
+    
+    padding: 1rem;
 }
 
 #banner h1 {
@@ -74,6 +80,7 @@ main {
 }
 
 #about img {
+    border-radius: 20px;
     max-width: 100%;
     display: block;
     margin-top: 1rem;
